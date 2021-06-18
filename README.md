@@ -1,5 +1,4 @@
 # CSGO-Cheat-Loader
-C# loader for any csgo cheat dll file with LoadLibraryA inject method. Enjoy :)
 
 Yo, if you need any help read that notes:
 
