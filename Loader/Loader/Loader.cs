@@ -28,7 +28,6 @@ namespace Loader
             load.Text = "Starting...";
 
             WebClient wb = new WebClient();
-            this.Hide();
             string mainpath = "C:\\Windows\\" + dll_name + ".dll";
             wb.DownloadFile("paste direct download link for dll here", mainpath);
 
@@ -41,6 +40,7 @@ namespace Loader
             if (csgo_array.Length != 0)
             {
                 load.Text = "Loading...";
+                this.Hide();
 
                 Inject.InjectMethod.Inject(mainpath, "csgo");
                 Console.Read();
